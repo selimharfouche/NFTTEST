@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
           <Link href="/dashboard">
             <a className="mr-6 text-pink-500">
-              Dashboard
+              Dashboard``
             </a>
           </Link>
         </div>
