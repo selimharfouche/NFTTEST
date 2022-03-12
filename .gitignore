@@ -42,4 +42,12 @@ typechain
 
 #Hardhat files
 cache
-artifacts
+artifacts/*
+!artifacts/contracts
+!artifacts/contracts/*
+!artifacts/contracts/NFT.sol
+artifacts/contracts/NFT.sol/*
+!artifacts/contracts/NFT.sol/NFT.json
+!artifacts/contracts/NFTMarketplace.sol
+artifacts/contracts/NFTMarketplace.sol/*
+!artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json
